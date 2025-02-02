@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fuente/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+#instagram {
+    font-family: Roboto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+
+#header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-text {
+    margin: 0%;
+    font-size: xx-small;
+    padding: 0%;
+}
+
+#header-image {
+    size: 70px;
+}
+
+#options-image {
+    height: 40px;
+}
+
+#post-body {
+    background: white;
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-footer {
+    height: 36px;
+}
+
+#image-insta {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
